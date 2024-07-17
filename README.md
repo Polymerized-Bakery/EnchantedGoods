@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# Enchanted Goods 
+A datapack "mod" with custom enchantments fully serverside!
 
-## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## What is it exactly
+A datapack thats packaged as a mod to allow modloaders to run it without it having to be added to the world folder
 
-## License
+Using Polymer I can also create completely Custom properties for the enchantments
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
