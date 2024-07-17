@@ -1,4 +1,4 @@
-package com.example;
+package com.daedreus.Bakery.EnchantedGoods;
 
 import net.fabricmc.api.ModInitializer;
 
