@@ -1,0 +1,1 @@
+spreadplayers ~ ~ 8 8 false @s

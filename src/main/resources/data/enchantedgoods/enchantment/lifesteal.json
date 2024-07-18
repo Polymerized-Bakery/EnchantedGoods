@@ -2,17 +2,17 @@
   "description": "Lifesteal",
   "supported_items": "#minecraft:enchantable/armor",
 
-  "weight": 8,
-  "max_level": 3,
+  "weight": 12,
+  "max_level": 1,
   "min_cost": {
-    "base": 10,
-    "per_level_above_first": 5
+    "base": 60,
+    "per_level_above_first": 0
   },
   "max_cost": {
     "base": 60,
-    "per_level_above_first": 5
+    "per_level_above_first": 0
   },
-  "anvil_cost": 5,
+  "anvil_cost": 8,
   "slots": ["armor"],
   "effects": {
     "minecraft:item_damage": [{
@@ -20,8 +20,8 @@
         "type": "minecraft:add",
         "value": {
           "type": "linear",
-          "base": 20,
-          "per_level_above_first": 10
+          "base": 40,
+          "per_level_above_first": 0
         }
       }
     }],
@@ -39,8 +39,8 @@
         "effect": {
           "type": "minecraft:damage_entity",
           "damage_type": "minecraft:thorns",
-          "max_damage": 10.0,
-          "min_damage": 4.0
+          "max_damage": 13.0,
+          "min_damage": 2.0
         }
       }]
   }
