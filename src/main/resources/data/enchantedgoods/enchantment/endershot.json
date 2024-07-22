@@ -1,0 +1,36 @@
+{
+  "description": "Ender Shot",
+  "supported_items": ["minecraft:bow","minecraft:crossbow" ],
+  "weight": 4,
+  "max_level": 1,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 5,
+  "slots": ["mainhand"],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "enchanted": "attacker",
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:all_of",
+            "effects": [
+              {
+                "type": "minecraft:run_function",
+                "function": "enchantedgoods:ender"
+              }
+            ]
+          },
+          "requirements": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this"
+          }
+        }]
+    }
+}
