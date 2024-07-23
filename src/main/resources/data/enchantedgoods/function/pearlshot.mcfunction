@@ -1,0 +1,1 @@
+execute on origin run tp @s ~ ~1 ~

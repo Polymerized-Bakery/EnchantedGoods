@@ -1,14 +1,14 @@
 {
   "description": "Zeus' Wrath",
   "supported_items": ["minecraft:bow","minecraft:crossbow" ],
-  "weight": 6,
+  "weight": 10,
   "max_level": 1,
   "min_cost": {
-    "base": 10,
+    "base": 45,
     "per_level_above_first": 0
   },
   "max_cost": {
-    "base": 10,
+    "base": 80,
     "per_level_above_first": 0
   },
   "anvil_cost": 5,
@@ -23,6 +23,18 @@
               {
                 "type": "minecraft:run_function",
                 "function": "enchantedgoods:zeuswrath"
+              },
+              {
+                "minecraft:item_damage": [{
+                  "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                      "type": "linear",
+                      "base": 40,
+                      "per_level_above_first": 0
+                    }
+                  }
+                }]
               }
             ]
           },
@@ -32,6 +44,12 @@
             "entity": "this"
           }
 
-        }]
+        }],
+      "minecraft:hit_block": [{
+        "effect":{
+          "type": "minecraft:run_function",
+          "function": "enchantedgoods:zeuswrath"
+      }
+      }]
     }
 }
