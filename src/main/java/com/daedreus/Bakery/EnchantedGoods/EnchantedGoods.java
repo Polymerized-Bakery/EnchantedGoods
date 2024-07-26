@@ -43,7 +43,7 @@ public class EnchantedGoods implements ModInitializer {
 		PolymerEntityUtils.registerAttribute(DROPPED_EXPERIENCE);
 		PolymerEntityUtils.registerAttribute(MAGIC_PROTECTION);
 		PolymerEntityUtils.registerAttribute(COLLECTION_RANGE);
-
+		LOGGER.info("Re-registered additionalattributes as serverside");
 
 
 		LOGGER.info("Enchanted Game!");
